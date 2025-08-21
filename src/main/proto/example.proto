@@ -1,9 +1,7 @@
 syntax = "proto3";
 
-package io.github.raphonzius.grpc.common.example;
-
 option java_multiple_files = true;
-option java_package = "io.github.raphonzius.grpc.common.example";
+option java_package = "io.github.raphonzius.grpccommon.proto";
 option java_outer_classname = "HelloWorldProto";
 
 service HelloService {
